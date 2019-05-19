@@ -3,13 +3,7 @@
   "version": "0.1.1",
   "description": "Simple, high-performance react component for d3 org chart",
   "repository": "https://github.com/latticehr/react-org-chart.git",
-  "main": "dist/index.js",
-  "directories": {
-    "example": "src/examples"
-  },
-  "files": [
-    "dist/index.js"
-  ],
+  "main": "src/index.js",
   "scripts": {
     "build": "webpack --mode production",
     "build-vendor": "webpack --mode production --config webpack.vendor.config.js",
